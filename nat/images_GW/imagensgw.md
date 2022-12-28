@@ -1,0 +1,1 @@
+# Imagens ultilizadas no processo:

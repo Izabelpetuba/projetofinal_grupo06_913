@@ -1,4 +1,4 @@
-# Configurando o Gatway4:
+# Configurando o Gateway como NAT
 
   * Antes de iniciarmos o desenvolvimento do projeto é válido considerar as definições da rede externas ao nosso gateway server  nas tabelas abaixo:
   
@@ -25,3 +25,17 @@
 | NameServer2 | 10.0.0.120     |
 | samba | 10.0.0.132   |
 
+# Configuração do firewall/NAT
+ 
+ Pré-requisito
+  * Configurar o firewall no linux;
+  
+  ## Como habilitar um firewall?
+  
+   1. Antes de qualquer coisa, precisamos estar logados da forma correta:
+   
+   ![alt text](path/to/images_GW)
+# Senhas:
+ 
+ * su redes -> admin@Lab92
+ * aluno -> aluno

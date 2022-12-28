@@ -1,1 +1,27 @@
 # Configurando o Gatway4:
+
+  * Antes de iniciarmos o desenvolvimento do projeto é válido considerar as definições da rede externas ao nosso gateway server  nas tabelas abaixo:
+  
+<p><center>Tabela 1: Definições da rede externa: </center></p>  
+
+| DESCRIÇÃO   | IP            |
+|:------------|:------------- |
+| rede        | 10.0.2.0      |
+| máscara     | 255.255.255.0 |
+| VirtualBox (gateway)     | 10.0.2.2      |
+| Broadcast   | 10.0.2.255    |
+
+   * As definições de rede da rede interna ao gateway server estão exemplificadas na Tabela 2.
+
+<p><center> Tabela 2: Definições da rede interna</center></p>
+
+| DESCRIÇÃO   | IP            |
+|:------------|:------------- |
+| rede        | 10.0.0.0      |
+| máscara     | 255.255.255.0 |
+| Gateway     | 10.0.0.1      |
+| Broadcast   | 10.0.0.255    |
+| NameServer1 | 10.0.0.101     |
+| NameServer2 | 10.0.0.120     |
+| samba | 10.0.0.132   |
+

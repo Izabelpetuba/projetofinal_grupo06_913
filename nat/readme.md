@@ -33,9 +33,29 @@
   ## Como habilitar um firewall?
   
    1. Antes de qualquer coisa, precisamos estar logados da forma correta:
+     Ao acessar o terminal, provavelmente a primeira coisa que você verá será o mesmo da imagem abaixo:
+      
+      /imagem do aluno@samba, ou algo assim/
+      
+      Precisaremos dar o seguinte comando para logarmos no usuário redes: `su redes` , sua senha é :
+      
+       | Senha: admin@Lab92|
+       |-------------------|
+      
+       
+       logo em seguidas devemos acessar nossa vpn:
+       
+       /imagem de vpn e link para acessar como fazer o acesso do openvpn/
+       
+       Parte de explicar o ssh do adm no Gw mais a imagem do ssh:
+       
+       /imagem e tals/
    
-   ![alt text](path/to/images_GW)
-# Senhas:
- 
- * su redes -> admin@Lab92
- * aluno -> aluno
+ 2. habilitar o firewall e permitir o acesso ao ssh:
+   Para isso digite o seguinte comando, como exemplifica a imagem:
+   
+     <p><center> Figura 1: Acessar ssh </center></p>   
+        <img src="images_GW/img1_sudoenable_GW.png" alt=""
+        title="Figura 1: Acessar sshr" width="800" height="auto"/> <br/>
+
+ 3. Alterar os parâmetros do arquivo abaixo. Para isso, remova a marca de comentário (#) da linha em questão, tal qual a figura abaixo:

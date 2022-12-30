@@ -64,7 +64,9 @@
  3. Alterar os parâmetros do arquivo abaixo. Para isso, remova a marca de comentário (#) da linha em questão, tal qual a figura abaixo:
      `$ sudo nano /etc/ufw/sysctl.conf`
      
-     /imagem/
+      <p><center> Figura 1: Acessar ssh </center></p>   
+        <img src="images_GW/img1_sudonano_GW.png" alt=""
+        title="Figura 1: Acessar sshr" width="800" height="auto"/> <br/>
      
   4. Configurando o nome das interfaces: `$ ifconfig -a`
   5. Configurando as interfaces de rede netplan: `$ sudo nano /etc/netplan/50-cloud-init.yaml`

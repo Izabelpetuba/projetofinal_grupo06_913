@@ -65,7 +65,15 @@
      `$ sudo nano /etc/ufw/sysctl.conf`
      
       <p><center> Figura 1: Acessar ssh </center></p>   
-        <img src="images_GW/img1_sudonano_GW.png" alt=""
+        <img src="images_GW/img2_sudonano_GW.png" alt=""
+        title="Figura 1: Acessar sshr" width="800" height="auto"/> <br/>
+        
+       <p><center> Figura 1: Acessar ssh </center></p>   
+        <img src="images_GW/img2_sudonano_GW.png" alt=""
+        title="Figura 1: Acessar sshr" width="800" height="auto"/> <br/>
+        
+       <p><center> Figura 1: Acessar ssh </center></p>   
+        <img src="images_GW/img3_net_GW.png" alt=""
         title="Figura 1: Acessar sshr" width="800" height="auto"/> <br/>
      
   4. Configurando o nome das interfaces: `$ ifconfig -a`

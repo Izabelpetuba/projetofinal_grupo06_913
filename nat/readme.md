@@ -153,10 +153,11 @@
     
    * No SAMBA: devemos permitir que o serviço de compartilhamento esteja disponível de modo exterrno, suas portas são 445 e 139, destacamos que a interface externa usada é WAn, enpOs3 do servidor 10.0.0.100;
       
-      /imagem/
-      
    * DNS: usa a porta 53, sua interface externa é wan, enpO3ns do servidor 10.0.0.10:
-      
-      /imagem/
+   
+   <p><center> Figura 1: Acessar ssh </center></p>   
+    <img src="images_GW/GW23.png" alt=""
+    title="Figura 1: Acessar sshr" width="800" height="auto"/> <br/>  
+     
    
     

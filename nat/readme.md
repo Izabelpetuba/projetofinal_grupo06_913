@@ -121,7 +121,9 @@
     
    9. Verificar se o nosso firewall está funcionando, para isso você poderá ultizar dois comandos `$ sudo ufw status` ou `$ systemctl status ufw.service`;
     
-    /imagem/
+       <p><center> Figura 1: Acessar ssh </center></p>   
+         <img src="images_GW/img11_sudoufw_GW.png" alt=""
+         title="Figura 1: Acessar sshr" width="800" height="auto"/> <br/>
     
    10. Devemos ativar Gateway4: 10.0.0.1 nas máquinas SAMBA, NS1 e NS2, para isso devemos usar o comando `$ sudo nano /etc/netplan/50-cloud-init.yaml`
     

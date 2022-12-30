@@ -115,7 +115,9 @@
    
    8. Converter o arquivo em executável e o tornar inicializável no boot, para isso ultiliza o comando `$ sudo chmod 755 /etc/rc.local`
     
-    /imagem/
+       <p><center> Figura 1: Acessar ssh </center></p>   
+         <img src="images_GW/img10_chmod_GW.png" alt=""
+         title="Figura 1: Acessar sshr" width="800" height="auto"/> <br/>
     
    9. Verificar se o nosso firewall está funcionando, para isso você poderá ultizar dois comandos `$ sudo ufw status` ou `$ systemctl status ufw.service`;
     

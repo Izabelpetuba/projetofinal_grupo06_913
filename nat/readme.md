@@ -131,11 +131,11 @@
         <img src="images_GW/img12_netplainit_GW.png" alt=""
         title="Figura 1: Acessar sshr" width="800" height="auto"/> <br/>
     
-   Deixe sua interface desta maneira:
+  Deixe sua interface desta maneira:
     
-      <p><center> Figura 1: Acessar ssh </center></p>   
-       <img src="images_GW/img13_netplaninit_GW.png" alt=""
-       title="Figura 1: Acessar sshr" width="800" height="auto"/> <br/>
+   <p><center> Figura 1: Acessar ssh </center></p>   
+     <img src="images_GW/img13_netplaninit_GW.png" alt=""
+     title="Figura 1: Acessar sshr" width="800" height="auto"/> <br/>
     
       
    Depois de verificar que nossa interface está semelhante a da imagem, devemos fazer respetivamente:
@@ -143,15 +143,19 @@
        * digitar a letra y (de yes)
        * Clicar na tecla Enter
        
-     Logo após, voltaremos a tela anterior digitaremos o seguinte comando para aplicar nossas alterações `$ sudo netplan apply`, em seguida para verificar nossas alterações digitaremos o seguinte comando `% ifconfig -a`;
+   Logo após, voltaremos a tela anterior digitaremos o seguinte comando para aplicar nossas alterações `$ sudo netplan apply`, em seguida para verificar nossas alterações digitaremos o seguinte comando `% ifconfig -a`;
+     
+   <p><center> Figura 1: Acessar ssh </center></p>   
+     <img src="images_GW/img14_netplancloud_GW.png" alt=""
+     title="Figura 1: Acessar sshr" width="800" height="auto"/> <br/>
     
-   11. Por fim devemos, alterar as portas de acesso externo à serviços de rede interna:
+ 11. Por fim devemos, alterar as portas de acesso externo à serviços de rede interna:
     
-     * No SAMBA: devemos permitir que o serviço de compartilhamento esteja disponível de modo exterrno, suas portas são 445 e 139, destacamos que a interface externa usada é WAn, enpOs3 do servidor 10.0.0.100;
+   * No SAMBA: devemos permitir que o serviço de compartilhamento esteja disponível de modo exterrno, suas portas são 445 e 139, destacamos que a interface externa usada é WAn, enpOs3 do servidor 10.0.0.100;
       
       /imagem/
       
-     * DNS: usa a porta 53, sua interface externa é wan, enpO3ns do servidor 10.0.0.10:
+   * DNS: usa a porta 53, sua interface externa é wan, enpO3ns do servidor 10.0.0.10:
       
       /imagem/
    

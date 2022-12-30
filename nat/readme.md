@@ -96,6 +96,10 @@
        
       Logo após, voltaremos a tela anterior digitaremos o seguinte comando para aplicar nossas alterações `$ sudo netplan apply`, em seguida para verificar nossas alterações digitaremos o seguinte comando `% ifconfig -a`;
       
+      <p><center> Figura 1: Acessar ssh </center></p>   
+        <img src="images_GW/img7_apply_GW.png" alt=""
+        title="Figura 1: Acessar sshr" width="800" height="auto"/> <br/>
+      
    6. Recriar o arquivo /etc/r.local no ubunto 18.04, com o comando `$ sudo nano /etc/rc.local`
     
     /imagem/

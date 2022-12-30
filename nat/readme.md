@@ -127,14 +127,18 @@
     
    10. Devemos ativar Gateway4: 10.0.0.1 nas máquinas SAMBA, NS1 e NS2, para isso devemos usar o comando `$ sudo nano /etc/netplan/50-cloud-init.yaml`
     
-    /imaginar/
+        <p><center> Figura 1: Acessar ssh </center></p>   
+        <img src="images_GW/img12_netplainit_GW.png" alt=""
+        title="Figura 1: Acessar sshr" width="800" height="auto"/> <br/>
     
-    Deixe sua interface desta maneira:
+   Deixe sua interface desta maneira:
     
-    /imagem/
+      <p><center> Figura 1: Acessar ssh </center></p>   
+       <img src="images_GW/img13_netplaninit_GW.png" alt=""
+       title="Figura 1: Acessar sshr" width="800" height="auto"/> <br/>
     
       
-    Depois de verificar que nossa interface está semelhante a da imagem, devemos fazer respetivamente:
+   Depois de verificar que nossa interface está semelhante a da imagem, devemos fazer respetivamente:
        * Ctrl + x, para salvar
        * digitar a letra y (de yes)
        * Clicar na tecla Enter

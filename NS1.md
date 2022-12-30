@@ -66,7 +66,7 @@ $ sudo cp /etc/bind/db.empty /etc/bind/zones/db.grupo6.turma913.ifalara.local
 $ sudo nano grupo6.turma913.ifalara.local
 ```
    
-   <img src = "https://github.com/amaurisilva1340/NS1_labredes/blob/Images/005.jpg?raw=true">
+   <img src = "https://github.com/amaurisilva1340/NS1_labredes/blob/Images/017.jpg?raw=true">
    
    #### Zona reversa: db.10.9.13.rev
    * edite o arquivo **db.10.9.13.rev** para adcionar as informações da zona reversa

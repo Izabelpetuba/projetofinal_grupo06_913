@@ -39,9 +39,6 @@
       
       Precisaremos dar o seguinte comando para logarmos no usuário redes: `su redes` , sua senha é :
       
-       | Senha: admin@Lab92|
-       |-------------------|
-      
        
        logo em seguidas devemos acessar nossa vpn:
        

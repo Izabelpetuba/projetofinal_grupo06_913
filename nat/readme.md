@@ -102,13 +102,16 @@
       
    6. Recriar o arquivo /etc/r.local no ubunto 18.04, com o comando `$ sudo nano /etc/rc.local`
     
-    /imagem/
+       <p><center> Figura 1: Acessar ssh </center></p>   
+         <img src="images_GW/img8_sudonano_GW.png" alt=""
+         title="Figura 1: Acessar sshr" width="800" height="auto"/> <br/>
     
    7. Agora devemos alterar o script do arquivo que acessamos no passo anterior:
-    
-    /imagem de antes/
-    
-    /imagem de depois/
+   
+       <p><center> Figura 1: Acessar ssh </center></p>   
+         <img src="images_GW/img9_sudonano_GW.png" alt=""
+         title="Figura 1: Acessar sshr" width="800" height="auto"/> <br/>
+   
    
    8. Converter o arquivo em executável e o tornar inicializável no boot, para isso ultiliza o comando `$ sudo chmod 755 /etc/rc.local`
     

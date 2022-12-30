@@ -72,10 +72,22 @@
         <img src="images_GW/img3_net_GW.png" alt=""
         title="Figura 1: Acessar sshr" width="800" height="auto"/> <br/>
      
-  4. Configurando o nome das interfaces: `$ ifconfig -a`
+  4. Configurando o nome das interfaces: `$ ifconfig -a`:
+  
+       <p><center> Figura 1: Acessar ssh </center></p>   
+        <img src="images_GW/img4_ifconfig_GW.png" alt=""
+        title="Figura 1: Acessar sshr" width="800" height="auto"/> <br/>
+        
   5. Configurando as interfaces de rede netplan: `$ sudo nano /etc/netplan/50-cloud-init.yaml`
      Deixe sua interface semelhante a da imagem a baixo:
-     /imagem/
+     
+      <p><center> Figura 1: Acessar ssh </center></p>   
+        <img src="images_GW/img5_netplan_GW.png" alt=""
+        title="Figura 1: Acessar sshr" width="800" height="auto"/> <br/>
+        
+       <p><center> Figura 1: Acessar ssh </center></p>   
+        <img src="images_GW/img6_netplan_GW.png" alt=""
+        title="Figura 1: Acessar sshr" width="800" height="auto"/> <br/>
      
      Depois de verificar que nossa interface está semelhante a da imagem, devemos fazer respetivamente:
        * Ctrl + x, para salvar
